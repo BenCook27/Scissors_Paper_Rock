@@ -49,6 +49,6 @@ while True:
         percentage = computer_score/game_number*100
         print(f"The computer has won {computer_score} out of {game_number} games. You have lost {percentage}% of the time!")
     
-    play_again = input("Would you like to play again? (y/n): ").lower()
+    play_again = input("Would you like to play again? (yes/no): ").lower()
     if play_again != "y":
         break
